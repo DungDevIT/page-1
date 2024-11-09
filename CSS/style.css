@@ -1,0 +1,155 @@
+@import url("https://fonts.cdnfonts.com/css/sf-mono");
+@import url("https://fonts.cdnfonts.com/css/new-york-extra-large");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-text");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/harriet-text");
+@import url("https://fonts.cdnfonts.com/css/nokia-cellphone-fc");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #ffd900;
+  --white-color: #fff;
+  --text-color: #000;
+}
+
+html {
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+
+.container {
+  margin-bottom: 295px;
+}
+
+.header {
+  background-color: var(--background);
+  height: 350px;
+  padding-left: 131px;
+}
+
+.header__time {
+  font-family: "SF Mono", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.87px;
+  padding-top: 65px;
+}
+
+.header__title {
+  font-family: "New York Extra Large", sans-serif;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 238.67px;
+  padding-bottom: 50px;
+}
+
+.section:nth-child(2) {
+  margin-top: 103px;
+  margin-left: 131px;
+}
+
+.section:nth-child(3) {
+  margin-top: 90px;
+  margin-left: 131px;
+}
+
+.section:nth-child(4) {
+  margin-top: 80px;
+  margin-left: 131px;
+}
+
+.section__title {
+  font-family: "New York Extra Large", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.51px;
+}
+
+.section__desc {
+  max-width: 923px;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.87px;
+  margin-top: 26px;
+}
+
+.section__desc {
+  padding: 0 29px;
+  border-left: 6px solid #000;
+}
+
+.section__desc-children {
+  margin-bottom: 58px;
+}
+
+.font-chapter,
+.font-mackay,
+.font-harriet,
+.font-basis,
+.font-nokia {
+  font-size: 50px;
+  display: inline-block;
+}
+
+.font-chapter {
+  font-family: "New York Extra Large", sans-serif;
+}
+
+.font-mackay {
+  margin-top: 52px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
+.font-harriet {
+  margin-top: 60px;
+  font-family: "Harriet Text", serif;
+  font-weight: 400;
+}
+
+.font-basis {
+  margin-top: 56px;
+  font-family: "SF Pro Text", sans-serif;
+}
+
+.font-nokia {
+  margin-top: 53px;
+  font-family: "Nokia Cellphone FC", sans-serif;
+  text-transform: uppercase;
+}
+
+.font__desc-chapter,
+.font__desc-mackay,
+.font__desc-harriet,
+.font__desc-basis,
+.font__desc-nokia {
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 20px;
+  line-height: 23.87px;
+  font-weight: 400;
+}
+
+.font__desc-chapter {
+  margin-top: 11px;
+}
+
+.font__desc-mackay {
+  margin-top: 14px;
+}
+
+.font__desc-harriet {
+  margin-top: 30px;
+}
+
+.font__desc-basis {
+  margin-top: 19px;
+}
+
+.font__desc-nokia {
+  margin-top: 29px;
+}
